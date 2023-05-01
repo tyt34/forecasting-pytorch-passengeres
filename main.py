@@ -45,6 +45,7 @@ loader = data.DataLoader(data.TensorDataset(
 
 # n_epochs = 2000
 n_epochs = 4000
+print('need epochs: ', n_epochs)
 
 for epoch in range(n_epochs):
     model.train()
